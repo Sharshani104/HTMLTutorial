@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Text Input</h2>
+
+<form>
+ 
+  <p>First name:</p>
+  <input type="text" name="firstname">
+  <p>Last name:</p>
+  <input type="text" name="lastname">
+<br>
+<br>
+<fieldset>
+  <legend>Gender:</legend>
+  	<input type="radio" name="gender" value="male" checked> Male<br>
+  	<input type="radio" name="gender" value="female"> Female<br>
+  	<input type="radio" name="gender" value="other"> Other <br>
+</fieldset>
+
+<p>Education Qualification</p>
+<select name="Education">
+    <option value="OL">O/L</option>
+    <option value="AL" selected>A/L</option>
+    <option value="Degree">Degree</option>
+    <option value="Masters">Masters</option>
+  </select>
+  <br><br>
+
+<textarea name="message" rows="10" cols="30">My name is AAA</textarea>
+<br><br>
+
+<input list="Programme" name="Programme">
+<datalist id="Programme">
+    <option value="HND in IT">
+    <option value="HND in IS">
+    <option value="HND in SE">
+    <option value="BSC">
+</datalist>
+<input type="submit">
+<br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
